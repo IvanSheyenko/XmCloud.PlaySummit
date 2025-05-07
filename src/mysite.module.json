@@ -1,0 +1,14 @@
+{
+    "$schema": "../.sitecore/schemas/ModuleFile.schema.json",
+    "namespace": "mytest",
+    "items": {
+        "path": "nextjs-starter",
+        "includes": [
+            {
+                "name": "myitem",
+                "path": "/sitecore/content/Home/test777",
+                "scope": "singleItem"
+            }
+        ]
+    }
+}
